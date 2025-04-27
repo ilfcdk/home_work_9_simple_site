@@ -34,7 +34,7 @@
 }
 
 * {
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -44,15 +44,15 @@
 html {
     font-family: 'Roboto', sans-serif;
     line-height: var(--line-height);
-    display: flex;
-    justify-content: center;
 }
 
 /*top right bottom left*/
-.desktop {
-    width: 1920px;
+.main {
+    width: 100%;
+    max-width:1920px;
     height: 2464px;
     background-color: var(--color-white-2);
+    margin-inline: auto;
 }
 
 /*---first-screen---*/

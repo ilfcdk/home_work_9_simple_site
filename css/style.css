@@ -24,7 +24,7 @@
 
     --letter-spacing-10: 0.1em;
 
-    --container-primary: 1100px;
+    --container-primary: 1080px;
     --container-secondary: 540px;
 
     --gap: 20px;
@@ -67,7 +67,7 @@ html {
 
 .first-screen__container {
     width: var(--container-primary);
-    padding-inline: 15px;
+    padding-inline: 20px;
 }
 
 .first-screen__nav {
@@ -174,11 +174,13 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 15px;
+    flex-wrap: wrap;
+    padding-inline: 20px;
+    row-gap: 20px;
 }
 
 .numbers-item {
-    width: 120px;
+    width: 141px;
     height: 50px;
     display: flex;
     justify-content: space-around;
@@ -186,7 +188,7 @@ html {
 }
 
 .numbers-item__image {
-    width: 60px;
+    width: 70px;
     height: 50px;
 }
 
@@ -241,9 +243,11 @@ html {
 
 .video-box__video {
     margin-bottom: 100px;
-    width: var(--container-primary);
+    max-width: var(--container-primary);
     min-width: var(--container-secondary);
-    padding-inline: 15px;
+    max-height: 600px;
+    padding-inline: 20px;
+
 }
 
 /*---footer---*/
@@ -259,7 +263,7 @@ html {
 .footer__container {
     width: var(--container-primary);
     height: 55px;
-    padding-inline: 15px;
+    padding-inline: 20px;
 }
 
 .footer__title {
